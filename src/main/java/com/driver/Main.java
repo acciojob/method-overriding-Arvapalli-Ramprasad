@@ -1,16 +1,16 @@
 package com.driver;
 // Task 1: Create a class A with a method named meth returning a string: "Invoking method from class A"
 
-import com.driver.A; // Import class A
-import com.driver.B; // Import class B
-public class A {
+// import com.driver.A; // Import class A
+// import com.driver.B; // Import class B
+class A {
     public String meth() {
         return "Invoking method from class A";
     }
 }
 
 // Task 2: Create a class B which extends class A
-public class B extends A {
+class B extends A {
     // Task 4: Override method meth of class A in class B
     @Override
     public String meth() {
