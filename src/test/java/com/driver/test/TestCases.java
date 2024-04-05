@@ -1,9 +1,13 @@
 package com.driver.test;
 
-import static org.junit.Assert.*;
+import com.driver.A;
+import com.driver.B;
+import static org.junit.Assert.assertEquals;
 import org.junit.jupiter.api.Test;
 
 public class TestCases {
+    @Test
+    public void testMethodOverride() {
         A objA = new A();
         B objB = new B();
         
