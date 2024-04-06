@@ -1,14 +1,14 @@
 package com.driver;
 
 // Task 1: Create a class A with a method named meth returning a string: "Invoking method from class A"
-class A {
+public void class A {
     public String meth() {
         return "Invoking method from class A";
     }
 }
 
 // Task 2: Create a class B which extends class A
-class B extends A {
+public void class B extends A {
     // Task 4: Override method meth of class A in class B
     @Override
     public String meth() {
