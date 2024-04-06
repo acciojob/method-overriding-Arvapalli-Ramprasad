@@ -6,6 +6,8 @@ import org.junit.Test;
 // Import classes A and B
 import com.driver.A;
 import com.driver.B;
+import com.driver.Main;
+
 
 public class TestCases {
 
