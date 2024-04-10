@@ -8,16 +8,16 @@ public class Main {
         // Task 5: Call this overridden method from object of class B
         System.out.println(objB.meth()); // Output will be "Method is overridden in Extended class B"
     }
-public static class A {
-    public String meth() {
-        return "Invoking method from class A";
+    public static class A {
+        public String meth() {
+            return "Invoking method from class A";
+        }
     }
-}
-public static class B extends A {
-    // Task 4: Override method meth of class A in class B
-    @Override
-    public String meth() {
-        return "Method is overridden in Extended class B";
+    public static class B extends A {
+        // Task 4: Override method meth of class A in class B
+        @Override
+        public String meth() {
+            return "Method is overridden in Extended class B";
+        }
     }
-}
 }
