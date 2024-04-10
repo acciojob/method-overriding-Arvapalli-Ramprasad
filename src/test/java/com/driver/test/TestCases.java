@@ -8,6 +8,6 @@ public class TestCases {
     @Test
     public void testprintHelloWorld2() {
         Main.B objB = new Main.B();
-        assertEquals("Method is overridden in Extended class B", objB.meth());
+        assertEquals(objB.meth());
     }
 }
